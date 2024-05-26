@@ -1,0 +1,172 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(/Site\ Agricultura/images/campo.jpg);
+    background-size: cover;
+}
+
+.body-outono {
+    margin: 0;
+    padding: 0;
+    background-color: #F2C18D;
+}
+
+.body-inverno {
+    margin: 0;
+    padding: 0;
+    background-color: #BED7DC;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.site-header {
+    background-color: rgba(166, 255, 171, 0.8);
+    border-bottom: 1px solid #ccc;
+    padding: .5em 1em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-header img {
+    height: 100px;
+    width: 280px;
+}
+
+.site-nav ul,
+.site-nav li {
+    margin: 0;
+    padding: 0;
+}
+
+.site-nav li {
+    display: inline-block;
+    margin: 2.3em 1em 1em 1em;
+}
+
+.site-nav a{
+    font-size: 26px;
+}
+
+.region {
+    text-align: center;
+}
+
+.region h1 {
+    margin: 2em;
+}
+
+.estacao h1 {
+    text-align: center;
+    margin: 2em;
+}
+
+.wp {
+    margin: 1em;
+    object-fit: cover;
+    height: 800px;
+    width: 400px;
+}
+
+.imagens a:hover {
+    transition: 0.5s;
+    background-color: rgba(2, 2, 255, 0.8);
+}
+
+.content {
+    margin: 6em;
+    text-align: center;
+    margin-left: 14em;
+    margin-right: 14em;
+    background-color: #F6995C;
+    height: 900px;
+    border-radius: 50px;
+    -webkit-text-fill-color: white;
+}
+
+.content-2 {
+    margin: 6em;
+    text-align: center;
+    margin-left: 14em;
+    margin-right: 14em;
+    background-color: #51829B;
+    height: 900px;
+    border-radius: 50px;
+    -webkit-text-fill-color: white; 
+}
+
+.content-3 {
+    padding: 3em;
+    margin: 6em;
+    text-align: center;
+    margin-left: 6em;
+    margin-right: 6em;
+    background-color: #51829B;
+    border-radius: 50px;
+    -webkit-text-fill-color: white; 
+}
+
+.content-4 {
+    margin: 6em;
+    text-align: center;
+    margin-left: 14em;
+    margin-right: 14em;
+    background-color: #E493B3;
+    height: 800px;
+    border-radius: 50px;
+    -webkit-text-fill-color: white; 
+}
+
+.titlereg {
+    margin: 2em;
+    font-size: 50px;
+}
+
+p {
+    margin: 3.5em;
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 28px;
+    margin: 3.5em;
+}
+
+.objetivo {
+    background-color: red;
+    padding: 3em;
+    margin: 6em;
+    border-radius: 50px;
+    background-color: rgba(166, 255, 171, 0.8);
+}
+
+.objetivo h1 {
+    margin-top: 3%;
+    text-align: center;
+    font-size: 54px;
+}
+
+.objetivo h2 {
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.btn {
+    text-align: center;
+}
+
+.btn button {
+    margin: 4em;
+    background-color: rgba(166, 255, 171, 0.8);
+    height: 200px;
+    width: 400px;
+    border-radius: 50px;
+    font-size: 22px;
+}
